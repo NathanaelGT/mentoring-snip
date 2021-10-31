@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+/* inline, inline-block, block, none */
+
+div {
+  display: inline-block;
+  height: 100px;
+  width: 50px;
+
+  background-color: #555;
+}
+
+.red {
+  background-color: rgb(255, 0, 0);
+}
+
+.blue {
+  background-color: rgb(0, 0, 255);
+}

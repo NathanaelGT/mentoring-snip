@@ -1,0 +1,29 @@
+body {
+  background-color: #000;
+}
+
+div {
+  color: rgba(255, 255, 255, 0.5);
+
+  margin: 10px;
+  padding: 10px;
+}
+
+.red {
+  background-color: rgb(255, 0, 0);
+  margin: 20px 15px 10px 5px;
+}
+
+.blue {
+  background-color: rgb(0, 0, 255);
+
+  /* top, right, bottom, left, kaya jam */
+  padding: 20px 15px 10px 5px;
+  /* padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 5px; */
+
+  /* top bottom, left, right */
+  padding: 10px 20px;
+}
