@@ -1,0 +1,60 @@
+.parent {
+  display: grid;
+  flex-direction: row;
+  background-color: #ff0000;
+  height: 100vmin;
+  width: 100vmin;
+  gap: 1rem;
+
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas:
+    "nomor-2 nomor-3 nomor-5 nomor-5"
+    "nomor-1 nomor-4 nomor-5 nomor-5";
+}
+
+@media (min-width: 768px) {
+  .parent {
+    grid-template-areas:
+      "nomor-5 nomor-5 nomor-2 nomor-3"
+      "nomor-5 nomor-5 nomor-1 nomor-4";
+  }
+}
+
+@media (min-width: 1200px) {
+  .parent {
+    grid-template-areas:
+      "nomor-2 nomor-5 nomor-5 nomor-3"
+      "nomor-1 nomor-5 nomor-5 nomor-4";
+  }
+}
+
+.child {
+  color: #fff;
+  font-size: 20px;
+}
+
+.child-1 {
+  grid-area: nomor-1;
+  background-color: #111;
+}
+
+.child-2 {
+  grid-area: nomor-2;
+  background-color: #222;
+}
+
+.child-3 {
+  grid-area: nomor-3;
+  background-color: #333;
+}
+
+.child-4 {
+  grid-area: nomor-4;
+  background-color: #444;
+}
+
+.child-5 {
+  grid-area: nomor-5;
+  background-color: #555;
+}

@@ -1,0 +1,15 @@
+.border,
+.outline {
+  width: 100px;
+  height: 100px;
+
+  background-color: red;
+}
+
+.border {
+  border: 10px solid blue;
+}
+
+.outline {
+  outline: 10px solid blue;
+}

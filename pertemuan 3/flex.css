@@ -1,0 +1,49 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+  background-color: #ff0000;
+  height: 100vmin;
+  width: 100vmin;
+  gap: 1rem;
+}
+
+.child {
+  width: 80px;
+  height: 80px;
+}
+
+.child-1 {
+  background-color: #111;
+}
+
+.child-2 {
+  background-color: #222;
+}
+
+.child-3 {
+  background-color: #333;
+}
+
+.child-4 {
+  background-color: #444;
+}
+
+.child-5 {
+  background-color: #555;
+}
+
+.child-6 {
+  background-color: #666;
+}
+
+.child-7 {
+  background-color: #777;
+}
+
+.child-8 {
+  background-color: #888;
+}
+
+.child-9 {
+  background-color: #999;
+}

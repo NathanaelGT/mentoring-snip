@@ -1,0 +1,48 @@
+:root {
+  font-size: 16px;
+}
+
+button {
+  padding: 0.8em 1.2em;
+  font-size: 16px;
+}
+
+/* root em */
+.parent {
+  background-color: #ff0000;
+  width: 20rem;
+  height: 20em;
+  font-size: 1.5em;
+}
+
+.child-1 {
+  background-color: #ff1;
+  height: 100px;
+  width: 50vw;
+}
+
+.child-2 {
+  background-color: aqua;
+  height: 100px;
+  width: 50px;
+}
+
+.parent-2 {
+  background-color: #ffe000;
+  width: 700px;
+  height: 300px;
+
+  margin-top: 100px;
+}
+
+.child-3 {
+  background-color: #ff0000;
+  height: 20vh;
+  width: 80vmax;
+}
+
+.child-4 {
+  background-color: aqua;
+  height: 100px;
+  width: 50px;
+}
